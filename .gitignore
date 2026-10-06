@@ -1,5 +1,20 @@
+# Dependencies
 node_modules/
+
+# Expo — build output, dev-server state, generated types
 .expo/
 dist/
+web-build/
+expo-env.d.ts
+
+# Secrets: `.env` holds real keys; never commit it.
 .env
+.env*.local
+
+# Native build artifacts
+ios/
+android/
+
+# Misc
 *.log
+.DS_Store

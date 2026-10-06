@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Mash Global Tech",
+    "slug": "mash-global-tech-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "mgtmobile",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mashglobaltech.mobile"
+    },
+    "android": {
+      "package": "com.mashglobaltech.mobile",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-web-browser"
+    ]
+  }
+}
